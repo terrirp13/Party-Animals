@@ -1,4 +1,4 @@
-.VenueList__Component {
+.venueListComponent {
     margin-bottom: 50px;
     padding: 75px 50px 20px 50px;
   
@@ -22,14 +22,14 @@
       }
     }
   
-    .venue-list  {
+    .venueList  {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       overflow-y: scroll;
       height: 600px;
     }
   
-    .venue-card {
+    .venueCard {
         padding-right: 30px;
         cursor: pointer;
         color: white;
@@ -56,19 +56,19 @@
     }
   
     @media (max-width: 850px) {
-      .venue-list {
+      .venueList {
         grid-template-columns: 1fr 1fr;
       }
     }
   
     @media (max-width: 600px) {
-      .venue-list {
+      .venueList {
         grid-template-columns: 1fr;
       }
     }
   
     @media (max-width: 450px) {
-      .venue-list  {
+      .venueList  {
         grid-template-columns: 1fr;
       }
     }
